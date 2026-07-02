@@ -3,9 +3,9 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\HospitalManagement\Events\CreateHospitalAppointment;
-use Workdo\HospitalManagement\Models\HospitalDoctor;
-use Workdo\HospitalManagement\Models\HospitalPatient;
+use Zerp\HospitalManagement\Events\CreateHospitalAppointment;
+use Zerp\HospitalManagement\Models\HospitalDoctor;
+use Zerp\HospitalManagement\Models\HospitalPatient;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateHospitalAppointmentLis

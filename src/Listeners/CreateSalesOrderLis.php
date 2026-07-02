@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\Sales\Events\CreateSalesOrder;
+use Zerp\Sales\Events\CreateSalesOrder;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateSalesOrderLis

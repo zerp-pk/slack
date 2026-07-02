@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\InnovationCenter\Events\CreateCreativity;
-use Workdo\InnovationCenter\Models\Challenge;
+use Zerp\InnovationCenter\Events\CreateCreativity;
+use Zerp\InnovationCenter\Models\Challenge;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateCreativityLis

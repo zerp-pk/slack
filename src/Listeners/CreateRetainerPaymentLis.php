@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Retainer\Events\CreateRetainerPayment;
+use Zerp\Retainer\Events\CreateRetainerPayment;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateRetainerPaymentLis

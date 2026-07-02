@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\CMMS\Events\CreatePreventiveMaintenance;
+use Zerp\CMMS\Events\CreatePreventiveMaintenance;
 use Zerp\ProductService\Models\ProductServiceItem;
 use Zerp\Slack\Services\SendMsg;
 

@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\CMMS\Events\CreateLocation;
+use Zerp\CMMS\Events\CreateLocation;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateLocationLis

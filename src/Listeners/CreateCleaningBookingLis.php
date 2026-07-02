@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\CleaningManagement\Events\CreateCleaningBooking;
+use Zerp\CleaningManagement\Events\CreateCleaningBooking;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateCleaningBookingLis

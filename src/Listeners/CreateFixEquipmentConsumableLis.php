@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentConsumable;
-use Workdo\FixEquipment\Models\FixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentConsumable;
+use Zerp\FixEquipment\Models\FixEquipmentAsset;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateFixEquipmentConsumableLis

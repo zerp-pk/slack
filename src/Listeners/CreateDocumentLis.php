@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\Documents\Events\CreateDocument;
+use Zerp\Documents\Events\CreateDocument;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateDocumentLis

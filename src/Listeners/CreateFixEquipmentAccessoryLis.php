@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAccessory;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAccessory;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateFixEquipmentAccessoryLis

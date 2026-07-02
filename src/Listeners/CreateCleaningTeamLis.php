@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\CleaningManagement\Events\CreateCleaningTeam;
+use Zerp\CleaningManagement\Events\CreateCleaningTeam;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateCleaningTeamLis

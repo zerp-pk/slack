@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use Zerp\Slack\Services\SendMsg;
-use Workdo\WordpressWoocommerce\Events\CreateWoocommerceProduct;
+use Zerp\WordpressWoocommerce\Events\CreateWoocommerceProduct;
 
 class CreateWoocommerceProductLis
 {

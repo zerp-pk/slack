@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\School\Events\CreateAdmission;
-use Workdo\School\Models\SchoolStudentInfo;
+use Zerp\School\Events\CreateAdmission;
+use Zerp\School\Models\SchoolStudentInfo;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateAdmissionLis

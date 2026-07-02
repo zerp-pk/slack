@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
 use Zerp\Slack\Services\SendMsg;
-use Workdo\ToDo\Events\CompleteToDo;
+use Zerp\ToDo\Events\CompleteToDo;
 
 class CompleteToDoLis
 {

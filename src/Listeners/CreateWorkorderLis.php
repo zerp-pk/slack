@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\CMMS\Events\CreateWorkOrder;
+use Zerp\CMMS\Events\CreateWorkOrder;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateWorkorderLis

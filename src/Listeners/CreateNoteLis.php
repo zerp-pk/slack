@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
-use Workdo\Notes\Events\CreateNote;
+use Zerp\Notes\Events\CreateNote;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateNoteLis

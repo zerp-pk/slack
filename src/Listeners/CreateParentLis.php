@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\School\Events\CreateParent;
+use Zerp\School\Events\CreateParent;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateParentLis

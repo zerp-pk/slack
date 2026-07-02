@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\LMS\Events\CreateOrder;
-use Workdo\LMS\Models\LMSStudent;
+use Zerp\LMS\Events\CreateOrder;
+use Zerp\LMS\Models\LMSStudent;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateOrderLis

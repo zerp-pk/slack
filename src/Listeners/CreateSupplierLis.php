@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateSupplier;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateSupplierLis

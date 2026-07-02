@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\Sales\Events\CreateSalesQuote;
+use Zerp\Sales\Events\CreateSalesQuote;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateSalesQuoteLis

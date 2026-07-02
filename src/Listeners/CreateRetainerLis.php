@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\Retainer\Events\CreateRetainer;
+use Zerp\Retainer\Events\CreateRetainer;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateRetainerLis

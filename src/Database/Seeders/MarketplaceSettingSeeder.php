@@ -18,7 +18,7 @@ class MarketplaceSettingSeeder extends Seeder
             $files = File::files($marketplaceDir);
             foreach ($files as $file) {
                 if (in_array($file->getExtension(), ['png', 'jpg', 'jpeg', 'gif', 'webp'])) {
-                    $screenshots[] = '/packages/workdo/Slack/src/marketplace/' . $file->getFilename();
+                    $screenshots[] = '/packages/local/Slack/src/marketplace/' . $file->getFilename();
                 }
             }
         }
@@ -56,19 +56,19 @@ class MarketplaceSettingSeeder extends Seeder
                                 'title' => 'Automated Notifications & Alerts',
                                 'description' => 'Receive instant, intelligent notifications for all system activities directly in your Slack channels with customizable filtering and smart routing. Configure automated alerts for critical events, project updates, and team activities to ensure everyone stays informed without overwhelming communication channels.',
                                 'keyPoints' => ['Real-time automated notification system with smart filtering', 'Customizable alert channels and routing preferences', 'Intelligent notification prioritization and scheduling', 'Mobile-ready instant messaging and push notifications'],
-                                'screenshot' => '/packages/workdo/Slack/src/marketplace/image1.png'
+                                'screenshot' => '/packages/local/Slack/src/marketplace/image1.png'
                             ],
                             [
                                 'title' => 'Advanced Channel Management & Organization',
                                 'description' => 'Organize team communication through sophisticated channel management with project-specific channels, department groups, and automated channel creation. Maintain structured communication flows with role-based access controls and intelligent message threading for enhanced collaboration efficiency.',
                                 'keyPoints' => ['Automated project and department channel creation', 'Role-based access controls and permission management', 'Intelligent message threading and conversation organization', 'Advanced channel archiving and content management'],
-                                'screenshot' => '/packages/workdo/Slack/src/marketplace/image2.png'
+                                'screenshot' => '/packages/local/Slack/src/marketplace/image2.png'
                             ],
                             [
                                 'title' => 'Seamless File Sharing & Collaboration',
                                 'description' => 'Enable effortless file sharing and document collaboration between your system and Slack with automatic synchronization and version control. Share documents, images, and project files instantly while maintaining security protocols and access permissions across all communication channels.',
                                 'keyPoints' => ['Automatic file synchronization with version control', 'Secure document sharing with access permission management', 'Real-time file preview and collaborative editing features', 'Comprehensive file history and backup management'],
-                                'screenshot' => '/packages/workdo/Slack/src/marketplace/image3.png'
+                                'screenshot' => '/packages/local/Slack/src/marketplace/image3.png'
                             ]
                         ]
                     ],

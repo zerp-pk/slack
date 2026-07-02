@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Sales\Events\CreateSalesMeeting;
+use Zerp\Sales\Events\CreateSalesMeeting;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateSalesMeetingLis

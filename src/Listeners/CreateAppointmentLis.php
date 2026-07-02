@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Appointment\Events\CreateAppointment;
+use Zerp\Appointment\Events\CreateAppointment;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateAppointmentLis

@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\CMMS\Events\CreateComponent;
+use Zerp\CMMS\Events\CreateComponent;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateComponentLis

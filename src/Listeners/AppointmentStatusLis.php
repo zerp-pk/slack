@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Appointment\Events\AppointmentStatus;
+use Zerp\Appointment\Events\AppointmentStatus;
 use Zerp\Slack\Services\SendMsg;
 
 class AppointmentStatusLis

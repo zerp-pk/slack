@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\InnovationCenter\Events\CreateChallenge;
+use Zerp\InnovationCenter\Events\CreateChallenge;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateChallengeLis

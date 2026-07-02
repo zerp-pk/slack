@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use Zerp\Slack\Services\SendMsg;
-use Workdo\ToDo\Events\CreateToDo;
+use Zerp\ToDo\Events\CreateToDo;
 
 class CreateToDoLis
 {

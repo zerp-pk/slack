@@ -5,7 +5,7 @@ namespace Zerp\Slack\Listeners;
 use App\Models\User;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeBook;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateInternalknowledgeBookLis

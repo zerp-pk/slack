@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use App\Models\User;
 use Zerp\Slack\Services\SendMsg;
-use Workdo\Spreadsheet\Events\CreateSpreadsheet;
+use Zerp\Spreadsheet\Events\CreateSpreadsheet;
 
 class CreateSpreadsheetLis
 {

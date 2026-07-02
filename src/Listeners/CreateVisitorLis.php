@@ -3,7 +3,7 @@
 namespace Zerp\Slack\Listeners;
 
 use Zerp\Slack\Services\SendMsg;
-use Workdo\VisitorManagement\Events\CreateVisitor;
+use Zerp\VisitorManagement\Events\CreateVisitor;
 
 class CreateVisitorLis
 {

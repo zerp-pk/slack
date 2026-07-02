@@ -2,7 +2,7 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\HospitalManagement\Events\CreateHospitalPatient;
+use Zerp\HospitalManagement\Events\CreateHospitalPatient;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateHospitalPatientLis

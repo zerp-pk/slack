@@ -2,9 +2,9 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\School\Events\CreateStudent;
-use Workdo\School\Models\SchoolClass;
-use Workdo\School\Models\SchoolStudentInfo;
+use Zerp\School\Events\CreateStudent;
+use Zerp\School\Models\SchoolClass;
+use Zerp\School\Models\SchoolStudentInfo;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateStudentLis

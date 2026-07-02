@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Portfolio\Events\CreatePortfolio;
-use Workdo\Portfolio\Models\PortfolioCategory;
+use Zerp\Portfolio\Events\CreatePortfolio;
+use Zerp\Portfolio\Models\PortfolioCategory;
 use Zerp\Slack\Services\SendMsg;
 
 class CreatePortfolioLis

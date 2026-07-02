@@ -2,9 +2,9 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\CMMS\Events\CreateWorkrequest;
+use Zerp\CMMS\Events\CreateWorkrequest;
 use Zerp\Slack\Services\SendMsg;
-use Workdo\CMMS\Models\CmmsComponent;
+use Zerp\CMMS\Models\CmmsComponent;
 
 class CreateWorkrequestLis
 {

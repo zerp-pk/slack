@@ -6,7 +6,7 @@ use App\Models\User;
 use Zerp\Slack\Services\SendMsg;
 use Zerp\Taskly\Models\Project;
 use Zerp\Taskly\Models\ProjectTask;
-use Workdo\TimeTracker\Events\CreateTimeTracker;
+use Zerp\TimeTracker\Events\CreateTimeTracker;
 
 class CreateTimeTrackerLis
 {

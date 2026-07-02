@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeArticle;
-use Workdo\Internalknowledge\Models\InternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeArticle;
+use Zerp\Internalknowledge\Models\InternalknowledgeBook;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateInternalknowledgeArticleLis

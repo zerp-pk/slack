@@ -2,9 +2,9 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAsset;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAudit;
-use Workdo\FixEquipment\Models\FixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAudit;
+use Zerp\FixEquipment\Models\FixEquipmentAsset;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateFixEquipmentAuditLis

@@ -5,7 +5,7 @@ namespace Zerp\Slack\Listeners;
 use App\Models\User;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\CMMS\Events\CreateCmmsPos;
+use Zerp\CMMS\Events\CreateCmmsPos;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateCmmsPosLis

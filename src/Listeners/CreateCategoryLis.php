@@ -4,7 +4,7 @@ namespace Zerp\Slack\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\InnovationCenter\Events\CreateCategory;
+use Zerp\InnovationCenter\Events\CreateCategory;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateCategoryLis

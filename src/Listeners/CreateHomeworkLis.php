@@ -2,9 +2,9 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\School\Events\CreateHomework;
-use Workdo\School\Models\SchoolClass;
-use Workdo\School\Models\SchoolSubject;
+use Zerp\School\Events\CreateHomework;
+use Zerp\School\Models\SchoolClass;
+use Zerp\School\Models\SchoolSubject;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateHomeworkLis

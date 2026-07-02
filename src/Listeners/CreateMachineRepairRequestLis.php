@@ -2,8 +2,8 @@
 
 namespace Zerp\Slack\Listeners;
 
-use Workdo\MachineRepairManagement\Events\CreateMachineRepairRequest;
-use Workdo\MachineRepairManagement\Models\Machine;
+use Zerp\MachineRepairManagement\Events\CreateMachineRepairRequest;
+use Zerp\MachineRepairManagement\Models\Machine;
 use Zerp\Slack\Services\SendMsg;
 
 class CreateMachineRepairRequestLis

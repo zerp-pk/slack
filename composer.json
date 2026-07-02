@@ -1,6 +1,6 @@
 {
     "name": "zerp/slack",
-    "description": "Description for slack package",
+    "description": "Slack notification integration module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},
