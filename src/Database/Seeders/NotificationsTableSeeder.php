@@ -728,7 +728,7 @@ class NotificationsTableSeeder extends Seeder
                     'ja' => '新しいフォームは {name} によって作成されます {company_name}',
                     'nl' => 'Een nieuw formulier is {name} is gemaakt door {company_name}',
                     'pl' => 'Nowa forma jest {name} jest tworzony przez {company_name}',
-                    'ru' => 'Новая форма — это {name} создан {company_name}',
+                    'ru' => 'Новая форма - это {name} создан {company_name}',
                     'pt' => 'Um novo formulário é {name} é criado por {company_name}',
                 ],
             ],
